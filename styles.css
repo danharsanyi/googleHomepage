@@ -1,35 +1,191 @@
+.topBorder {
+    list-style-type: none;
+    text-align: right;
+    margin-top: -10px;
+}
+
+.topBorder > li {
+	display: inline;
+	padding: 10px;
+	font-family: Arial;
+	font-size: 15px;
+}
+
+.topBorder > li > a {
+    color: grey;
+    text-decoration: none;
+    vertical-align: middle;
+}
+
+.topBorder > li > a:hover {
+     color: grey; 
+     text-decoration:underline; 
+     cursor:pointer;  
+}
+
+#squares {
+   	height: auto; 
+    width: auto; 
+    max-width: 20px; 
+    max-height: 20px;
+    position: relative;
+  	top: 50%;
+  	transform: translateY(+28%);
+}
+
+#bell {
+	height: auto; 
+    width: auto; 
+    max-width: 30px; 
+    max-height: 30px;
+    position: relative;
+  	top: 50%;
+  	transform: translateY(+30%);
+
+}
+
+#profilePic {
+	height: auto; 
+    width: auto; 
+    max-width: 35px; 
+    max-height: 35px;
+    border-radius: 50%;
+    position: relative;
+  	top: 50%;
+  	transform: translateY(+32%);
+
+}
+
 #googleLogo {
  	display: block;
  	margin: auto;
  	margin-top: 180px;
- 	width: 25%
+ 	width: 20%
 }
 
-#searchBox {
-	border-style: solid;
-	border-width: 1px;
-	border-color: #80b2ff;
-	display: block;
-	margin: auto;
-	margin-top: 20px;
-	width: 650px;
-	height: 30px;
-	color: red;
-
-}
-
-.topBorder {
-    list-style-type: none;
-    text-align: right;
-
-}
-
-li {
-	display: inline;
-	padding: 10px;
-	font-family: Tahoma;
+#textBox {
+	display: inline-block;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .textInput {
-	size: 500em;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 650px;
+	height: 30px;
+	outline: none;
+	font: Arial;
+	font-size: 15px;
+
+
 }
+
+.textInput:focus {
+	border: 1px solid #3399ff;
+
+}
+
+#searchButtons {
+	display: block;
+	width: 300px;
+	margin-top: 10px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#B1:hover {
+  background-color: #F8F8F8;
+  border: 1px solid;
+  border-color: #686868;
+}
+
+#B2:hover {
+  background-color: #F8F8F8;
+  border: 1px solid;
+  border-color: #686868;
+}
+
+#B1 {
+  border: 0;
+  border-radius: 2px;
+  width: 140px;
+  height: 35px;
+  background: #F0F0F0 ;
+  font-family: Arial;
+  font-size: 13px;
+  color: #686868;
+  font-weight: bold;
+}
+
+#B2 {
+  border: 0;
+  width: 140px;
+  height: 35px;
+  background: #F0F0F0 ;
+  font-family: Arial;
+  font-size: 13px;
+  color: #686868;
+  font-weight: bold;
+}
+
+.footer {
+	background-color: #F0F0F0;
+	border: 1px solid;
+	border-color: #E8E8E8 ;
+	font-family: Arial;
+	font-size: 13px;
+	color: grey;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	height: 38px;
+	margin-left: -7px;
+
+}
+
+.leftFooterList > li {
+    display: inline;
+    list-style-type: none;
+   	float: left;
+   	margin-left: -12px;
+   	padding: 15px;
+   	position: relative;
+  	top: 50%;
+  	transform: translateY(-40%);
+}
+
+.leftFooterList > li > a {
+	color: grey;
+    text-decoration: none;
+}
+
+.leftFooterList > li > a:hover {
+	color: grey;
+    text-decoration: underline;
+}
+
+.rightFooterList > li {
+    display: inline;
+    list-style-type: none;
+  	float: right;
+  	margin-right: +12px;
+  	padding: 10px;
+  	position: relative;
+  	top: 50%;
+  	transform: translateY(-37%);
+}
+
+.rightFooterList > li > a {
+	color: grey;
+    text-decoration: none;
+}
+
+.rightFooterList > li > a:hover {
+	color: grey;
+    text-decoration: underline;
+}
+
+
